@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="199px" height="281px" viewBox="0 0 199 281" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="3" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.238042092   0 0 0 0 0.238042092   0 0 0 0 0.238042092  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-2" sketch:type="MSArtboardGroup" transform="translate(-2.000000, -1.000000)">
+            <g id="Logo" sketch:type="MSLayerGroup" transform="translate(2.000000, 1.000000)">
+                <rect id="Outer" fill="#000000" sketch:type="MSShapeGroup" x="0.518728322" y="0.7559176" width="196.832185" height="278.513054" rx="8"></rect>
+                <rect id="Inner" fill="#FFFFFF" sketch:type="MSShapeGroup" x="12.6737039" y="21.3865142" width="172.522234" height="237.251861" rx="8"></rect>
+                <text id="nm" fill="white" filter="url(#filter-1)" sketch:type="MSTextLayer" font-family="Fira Sans" font-size="69.3401289" font-weight="normal" sketch:alignment="middle">
+                    <tspan x="48.9059179" y="156.711923" fill="#000000">nm</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
