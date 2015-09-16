@@ -5,7 +5,15 @@
 @import "1-base/vars";
 @import "1-base/base";
 
+@import "2-modules/buttons";
+
 @import "3-sections/header";
 @import "3-sections/about";
+@import "3-sections/food";
+@import "3-sections/articles";
+
+
+
+
 
 @import "4-layouts/home";
