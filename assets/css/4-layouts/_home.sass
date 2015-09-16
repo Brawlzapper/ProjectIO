@@ -1,0 +1,92 @@
+//for main layout
+.home-wrap
+  display: flex
+  min-height: 100vh
+
+  @media (max-width: 775px)
+    display: block
+
+.sections
+  flex: 1
+
+  section
+    padding: 50px 0
+
+
+    //Flex Classes
+
+  .flex
+    display: flex
+
+  .flex--center
+    justify-content: center
+
+  .flex--space-around
+    justify-content: space-around
+
+  .order-first
+    order: -1
+
+
+
+// columns
+
+.col-1
+  width: 320px
+  padding: 0 10px
+  box-sizing: border-box
+
+.push-right
+  margin-left: 330px
+
+.col-2
+  max-width: 640px
+  padding: 0 10px
+  box-sizing: border-box
+  width: 100%
+
+.col-50
+  width: 50%
+
+
+@media (max-width: 640px)
+  .sections .flex
+    display: block
+
+  .col-1
+    width: 100%
+
+  .col-50
+    width: auto
+
+  .push-right
+    margin-left: 0px
+
+
+//Typography
+
+.words
+  font-size: 36px
+  line-height: 1.2
+  color: white
+  font-weight: 600
+
+  &.outdented
+    text-indent: -1em
+
+  //used for mobile layouts, 640 is our chosen magic number.
+@media (max-width: 640px)
+  .words
+    text-align: center
+
+    &.outdented
+      text-indent: 0
+
+
+    //Controls CTA (call to action) postion and padding
+  .click-button
+    margin: auto
+    padding-top: 10px
+    padding-bottom: 10px
+    padding-right: 12px
+    padding-left: 12px
