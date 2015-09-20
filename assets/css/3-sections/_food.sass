@@ -4,7 +4,6 @@ section.food
     position: center
     size: cover
 
-
   .words
     color: #FF5656
     font-size: 48px
@@ -12,28 +11,24 @@ section.food
   .click-button
     color: #FF5656
 
-
   .col-1
     display: flex
     align-items: center
 
   .food-wrap
-    margin-top: -50px
-    margin-bottom: -50px
-
-
-  .img-thumb
     display: block
-    float: left
-    background:
-      size: cover
-      position: center
-    position: relative
-    width: 33.33%
-    height: 250px
-    margin-bottom: -50px
-    margin-left: 0px
 
+    .img-thumb
+      display: block
+      float: left
+      background:
+        size: cover
+        position: center
+      position: relative
+      width: calc(33.33% - 18px)
+      height: 190px
+      margin: 5px
+      border: 3px solid #FF5656
 
     .name
       opacity: 0
@@ -44,8 +39,9 @@ section.food
   @media (max-width: 640px)
     .desc-wrap
       margin-top: 100px
-      margin-right: 100px
 
   @media (max-width: 1000px) and (max-width: 640px)
     .img-thumb
       width: 33.33%
+    .outdented
+      text-indent: 0
