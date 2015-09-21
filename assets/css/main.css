@@ -650,6 +650,12 @@ section.food {
       height: 190px;
       margin: 5px;
       border: 3px solid #FF5656; }
+      section.food .food-wrap .img-thumb:hover {
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
+        -webkit-transition: -webkit-transform 100ms ease-in-out;
+                transition: transform 100ms ease-in-out; }
     section.food .food-wrap .name {
       opacity: 0; }
     section.food .food-wrap .date {
