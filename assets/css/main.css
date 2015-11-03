@@ -493,11 +493,7 @@ body {
     text-indent: 101%;
     white-space: nowrap;
     max-width: 135px;
-<<<<<<< HEAD
-    background-image: url(/assets/img/try.png);
-=======
     background-image: url(/assets/img/icon.png);
->>>>>>> master
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
