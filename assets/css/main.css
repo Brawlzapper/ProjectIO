@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -449,7 +449,7 @@ body {
   background: white;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
   text-align: center;
-  padding: 0.7em 0;
+  padding: 0.5em 0;
   line-height: 1.25;
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out; }
@@ -619,7 +619,7 @@ body {
             transform: translateY(0%); } }
 
 section.about {
-  background-image: url(../img/logolay.jpg);
+  background-image: url(../img/opening.png);
   background-position: center bottom;
   background-size: cover; }
   section.about h2 {
@@ -644,7 +644,7 @@ section.food {
   background-size: cover; }
   section.food .words {
     color: #FF5656;
-    font-size: 48px; }
+    font-size: 36px; }
   section.food .click-button {
     color: #FF5656; }
   section.food .col-1 {
@@ -837,7 +837,7 @@ section.code {
       width: 100%; } }
 
 .brief-bg {
-  background-image: url(../img/brief-bg.png);
+  background-image: url(../img/brief-overlay.png);
   background-size: cover;
   background-position: center; }
 
@@ -905,7 +905,7 @@ section.brief .opac {
   opacity: 0; }
 
 section.brief .col-1 p {
-  color: #5544F9; }
+  color: white; }
 
 @media (max-width: 640px) {
   section.brief .img {
